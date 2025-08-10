@@ -1,0 +1,34 @@
+# Python-specific files and directories
+__pycache__/
+*.py[co]
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# IDE-specific files (e.g., from VS Code, PyCharm)
+.idea/
+.vscode/
+*.swp
+*.bak
+*~
+
+# Data files
+# It's often good practice to ignore large data files or generated data
+# Uncomment if you want to ignore the original dataset as well
+# Uber_Data.csv
+
+# Generated data files (if any are created by your script)
+# Uncomment if you want to save the plots as images and ignore them
+# hourly_trips.png
+# weekday_trips.png
+# hour_vs_weekday_heatmap.png
+
+# Generated HTML file for the map
+nyc_pickup_map.html
+
+# Operating System files
+.DS_Store
+Thumbs.db
