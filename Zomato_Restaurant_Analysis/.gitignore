@@ -1,0 +1,24 @@
+# 🔁 Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# 💾 Data files (raw and processed)
+*.csv
+*.xlsx
+zomato.csv
+zomato_cleaned.csv
+
+# 🧪 Virtual environment (if used later)
+venv/
+env/
+.venv/
+
+# 📂 OS-generated files
+.DS_Store
+Thumbs.db
+
+# 📝 Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
