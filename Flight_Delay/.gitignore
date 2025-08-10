@@ -1,0 +1,24 @@
+# Python-specific files and directories
+__pycache__/
+*.py[co]
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# IDE-specific files (e.g., from VS Code, PyCharm)
+.idea/
+.vscode/
+*.swp
+*.bak
+*~
+
+# Data files
+# It's good practice to ignore large data files from version control
+flights_sample_3m.csv
+
+# Operating System files
+.DS_Store
+Thumbs.db
