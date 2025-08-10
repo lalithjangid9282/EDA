@@ -1,0 +1,35 @@
+# Python-specific files and directories
+__pycache__/
+*.py[co]
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# IDE-specific files (e.g., from VS Code, PyCharm)
+.idea/
+.vscode/
+*.swp
+*.bak
+*~
+
+# Data files
+# It's good practice to ignore large data files from version control
+Matches.csv
+Deliveries.csv
+
+# Generated image files
+# Uncomment these lines if you save your plots as images
+# most_matches_won.png
+# win_by_runs.png
+# win_by_wickets.png
+# toss_decision.png
+# top_scorers.png
+# top_wicket_takers.png
+# matches_per_season.png
+
+# Operating System files
+.DS_Store
+Thumbs.db
