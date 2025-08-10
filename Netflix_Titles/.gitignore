@@ -1,0 +1,30 @@
+# Python-specific files and directories
+__pycache__/
+*.py[co]
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+/bin/
+/include/
+/lib/
+/lib64/
+
+# IDE-specific files
+.idea/
+*.swp
+*.bak
+*~
+
+# Generated files from the script
+# This is the output file that should not be committed to Git
+netflix_cleaned.csv
+
+# Dataset files - uncomment this line if you don't want to commit the source data
+# netflix_titles.csv
+
+# Operating System files
+.DS_Store
+Thumbs.db
