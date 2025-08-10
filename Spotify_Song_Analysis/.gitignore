@@ -1,0 +1,34 @@
+# Python-specific files and directories
+__pycache__/
+*.py[co]
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# IDE-specific files (e.g., from VS Code, PyCharm)
+.idea/
+.vscode/
+*.swp
+*.bak
+*~
+
+# Data files
+# It's good practice to ignore large data files from version control
+SpotifyFeatures.csv
+
+# Generated image files
+# Uncomment these lines if you save your plots as images
+# correlation_matrix.png
+# genre_popularity.png
+# tempo_popularity.png
+# energy_popularity.png
+# tempo_distribution.png
+# energy_distribution.png
+# songs_per_year.png
+
+# Operating System files
+.DS_Store
+Thumbs.db
