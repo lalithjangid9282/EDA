@@ -17,7 +17,7 @@ def load_data():
     Loads the Airbnb dataset and performs necessary data cleaning.
     """
     try:
-        df = pd.read_csv("AB_NYC_2019.csv")
+        df = pd.read_csv("Airbnb/AB_NYC_2019.csv")
     except FileNotFoundError:
         st.error("Error: 'AB_NYC_2019.csv' not found. Please upload the file or ensure it's in the same directory.")
         return None
