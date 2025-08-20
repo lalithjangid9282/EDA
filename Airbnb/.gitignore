@@ -1,0 +1,27 @@
+# Python-specific files and directories
+__pycache__/
+*.py[co]
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# IDE-specific files (e.g., from VS Code, PyCharm)
+.idea/
+.vscode/
+*.swp
+*.bak
+*~
+
+# Data files
+# It's good practice to ignore large data files from version control
+#AB_NYC_2019.csv
+
+# Generated HTML file for the map
+nyc_airbnb_map.html
+
+# Operating System files
+.DS_Store
+Thumbs.db
