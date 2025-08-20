@@ -17,7 +17,7 @@ env/
 
 # Data files
 # It's good practice to ignore large data files from version control
-flights_sample_3m.csv
+#flights_sample_3m.csv
 
 # Operating System files
 .DS_Store
