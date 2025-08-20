@@ -20,7 +20,7 @@ env/
 
 # Generated files from the script
 # This is the output file that should not be committed to Git
-netflix_cleaned.csv
+#netflix_cleaned.csv
 
 # Dataset files - uncomment this line if you don't want to commit the source data
 # netflix_titles.csv
