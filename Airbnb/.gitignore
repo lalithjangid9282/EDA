@@ -17,7 +17,7 @@ env/
 
 # Data files
 # It's good practice to ignore large data files from version control
-AB_NYC_2019.csv
+#AB_NYC_2019.csv
 
 # Generated HTML file for the map
 nyc_airbnb_map.html
