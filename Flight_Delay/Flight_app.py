@@ -15,7 +15,7 @@ def load_data():
     Loads the flight delay dataset, handles missing values, and performs data cleaning.
     """
     try:
-        df = pd.read_csv("flights_sample_3m.csv", on_bad_lines='skip')
+        df = pd.read_csv("flights_sample_3m.zip", on_bad_lines='skip')
         
         # Correct column names and drop rows with missing values
         df.dropna(subset=['ARR_DELAY', 'DEP_DELAY'], inplace=True)
