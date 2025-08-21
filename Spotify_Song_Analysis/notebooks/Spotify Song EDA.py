@@ -106,5 +106,3 @@ if 'year' in df.columns:
 
 print("\nEDA Completed.")
 
-df.to_csv("Spotify_cleaned.csv", index=False)
-print("saved Successfully")
