@@ -15,7 +15,7 @@ def load_data():
     Loads the Spotify dataset and performs necessary data cleaning.
     """
     try:
-        df = pd.read_csv("SpotifyFeatures.csv")
+        df = pd.read_csv("Spotify.csv")
     except FileNotFoundError:
         st.error("Error: 'SpotifyFeatures.csv' not found. Please ensure the file is in the same directory.")
         return None
