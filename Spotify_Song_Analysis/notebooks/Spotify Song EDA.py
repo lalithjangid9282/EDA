@@ -3,9 +3,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-print("Loading dataset 'SpotifyFeatures.csv'...")
+print("Loading dataset 'Spotify.csv'...")
 try:
-    df = pd.read_csv("../SpotifyFeatures.csv")
+    df = pd.read_csv("../Spotify.csv")
     print("Dataset loaded successfully.")
     print(f"Dataset shape: {df.shape}")
     print(f"Dataset columns: {df.columns.tolist()}")
