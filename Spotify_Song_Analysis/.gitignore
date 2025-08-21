@@ -17,7 +17,7 @@ env/
 
 # Data files
 # It's good practice to ignore large data files from version control
-SpotifyFeatures.csv
+#SpotifyFeatures.csv
 
 # Generated image files
 # Uncomment these lines if you save your plots as images
