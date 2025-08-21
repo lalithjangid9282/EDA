@@ -17,7 +17,7 @@ def load_data():
     try:
         df = pd.read_csv("Spotify.csv")
     except FileNotFoundError:
-        st.error("Error: 'SpotifyFeatures.csv' not found. Please ensure the file is in the same directory.")
+        st.error("Error: 'Spotify.csv' not found. Please ensure the file is in the same directory.")
         return None
     
     # Drop duplicates or nulls if any
