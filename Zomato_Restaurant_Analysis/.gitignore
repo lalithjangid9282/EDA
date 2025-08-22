@@ -3,10 +3,10 @@ __pycache__/
 *.py[cod]
 
 # 💾 Data files (raw and processed)
-*.csv
-*.xlsx
-zomato.csv
-zomato_cleaned.csv
+#*.csv
+#*.xlsx
+#zomato.csv
+#zomato_cleaned.csv
 
 # 🧪 Virtual environment (if used later)
 venv/
