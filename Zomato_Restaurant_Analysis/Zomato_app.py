@@ -7,7 +7,8 @@ st.set_page_config(layout="wide", page_title="Zomato Restaurant Analysis")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("zomato.csv", encoding='latin-1')
+    df = pd.read_csv("zomato.csv", encoding='latin-1', dtype={"column_name": str, ...})
+
     df = df[df['rate'].notnull() & (df['rate'] != 'NEW') & (df['rate'] != '-')]
     df['rate'] = df['rate'].apply(lambda x: str(x).split('/')[0]).str.strip()
     df['rate'] = pd.to_numeric(df['rate'], errors='coerce')
