@@ -13,7 +13,7 @@ def load_data():
     and handles caching for improved performance.
     """
     # Load data with 'latin-1' encoding to avoid UnicodeDecodeError
-    df = pd.read_csv("Sperstore_Sales_Analysis/Sample Superstore.csv", encoding='latin-1')
+    df = pd.read_csv("Superstore_Sales_Analysis/Sample Superstore.csv", encoding='latin-1')
     
     # Convert 'Order Date' column to datetime objects
     df['Order Date'] = pd.to_datetime(df['Order Date'])
