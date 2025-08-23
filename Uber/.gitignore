@@ -27,7 +27,7 @@ env/
 # hour_vs_weekday_heatmap.png
 
 # Generated HTML file for the map
-nyc_pickup_map.html
+#nyc_pickup_map.html
 
 # Operating System files
 .DS_Store
