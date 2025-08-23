@@ -64,5 +64,4 @@ pickup_map.save('nyc_pickup_map.html')
 # === Done ===
 print("\nEDA Completed.")
 
-df.to_csv("Uber_Cleaned.csv", index=False)
-print("saved Successfully")
+
