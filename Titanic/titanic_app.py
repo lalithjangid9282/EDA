@@ -13,7 +13,7 @@ def load_data():
     Caches the data to improve performance on subsequent runs.
     """
     # Load the dataset
-    df = pd.read_csv("titanic.csv")
+    df = pd.read_csv("Titanic/titanic.csv")
     
     # Handle missing values
     df['Age'] = df['Age'].fillna(df['Age'].median())
